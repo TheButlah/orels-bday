@@ -1,0 +1,13 @@
+[package]
+name = "orels"
+version = "0.1.0"
+edition = "2024"
+license = "MIT-0"
+
+[dependencies]
+bon = "3.9.2"
+color-eyre = "0.6.0"
+crossterm = "0.29.0"
+image = "0.24.0"
+owo-colors = "4.3.0"
+rascii_art = "0.4.5"
