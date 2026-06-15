@@ -112,8 +112,8 @@ fn main() -> Result<()> {
 
 	println!(
 		"{} for making the last couple years special, and I hope your birthday today {}",
-		"is as special as you are.".bright_magenta(),
 		"Thanks".bold(),
+		"is as special as you are.".bright_magenta(),
 	);
 	wait_for_enter().recv().ok();
 	render_gif(wait_for_enter(), &CAKE).reversed(true).call()?;
